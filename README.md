@@ -1,8 +1,7 @@
-# Supervised Machine Learning
+# Credit Risk with Supervised Machine Learning
 Predict credit risk with machine learning algorithms and help financial institutions predict anomalies, reduce risk cases, monitor portfolios.
 
-A company in the FinTech industry has asked an aspiring Data Science Machine Learning expert to ascertain credit risk in their loans dataset. Python will be
-the main method of translating our code, with various SciKit libraries, algorithms, and machine learning models. Some of the tasks are:
+A company in the FinTech industry has asked an aspiring Data Science Machine Learning expert to ascertain credit risk in their loans dataset. Python will be the main method of translating our code, with various SciKit libraries, algorithms, and machine learning models. Some of the tasks are:
 
 - Train and test models from a cleaned and pruned dataset
 - Use popular machine learning models such as logistic regression, decision tree, random forest, and support vector machine algorithms and interpret results
@@ -16,13 +15,13 @@ and decisions. Here are the precision and recall scores for all the classifier t
 ```
 Balanced Random Forest Classifier
 
-                precision   recall      f1    |  accuracy_score
-    high_risk      0.03      0.64      0.06   |  0.7688
+                precision   recall      f1    | accuracy_score
+    high_risk      0.03      0.64      0.06   | 0.7688
     low_risk       1.00      0.90      0.94   |  
 
 Easy Ensemble AdaBoost Classifier
 
-    high_risk      0.07      0.90      0.14   |  0.9205
+    high_risk      0.07      0.90      0.14   | 0.9205
     low_risk       1.00      0.94      0.97   |  
 
 Random Oversampling
@@ -53,6 +52,8 @@ For the low risk credit scores, a model like Balanced Random Forest Classifier p
 however, the F1 score is better indicator of a balance between precision and recall, since the F1 score displays a low F1 score if both precision
 and recall do not mesh well together. Considering that into account, we could surmise that Easy Ensemble AdaBoost Classifier would be a great balance
 between high recall for both low and high credit risk, while a low score for precision for high risk leads to many false positives. And even the accuracy score for this model attests to the F1 score balance, boasting the highest score of 92%!
+
+![bar](supervisedML_challenge_notebooks/accry_bar1.jpg)
 
 
 
